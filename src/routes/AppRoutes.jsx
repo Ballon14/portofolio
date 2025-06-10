@@ -2,6 +2,7 @@ import MainLayout from "../components/layouts/MainLayout";
 import AboutPage from "../pages/AboutPage";
 import HomePage from "../pages/HomePage";
 import NotFound from "../pages/NotFound";
+import ProjectPage from "../pages/ProjectsPage";
 import SkillsPage from "../pages/SkillsPage";
 
 const routes = [
@@ -30,6 +31,18 @@ const routes = [
         name: "skills",
         path: "/skills",
         Component: SkillsPage,
+      },
+      {
+        key: "projects",
+        name: "projects",
+        path: "/projects",
+        Component: ProjectPage,
+      },
+      {
+        key: "contact",
+        name: "contact",
+        path: "/contact",
+        Component: NotFound,
       },
     ],
   },
