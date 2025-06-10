@@ -13,6 +13,9 @@ const ContactPage = () => {
                 <p className="text-lg">
                     Silahkan hubungi saya melalui media sosial di bawah ini
                 </p>
+                <div className="">
+
+                </div>
 
                 <BoxSocial />
             </div>
