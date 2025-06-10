@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1633"/>
+      <stop offset="100%" stop-color="#002b55"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded square background -->
+  <rect x="32" y="32" width="448" height="448" rx="64" ry="64" fill="url(#bgGrad)"/>
+
+  <!-- Globe and circuit lines -->
+  <g stroke="#00bfff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Globe outline -->
+    <circle cx="230" cy="256" r="130"/>
+    <!-- Vertical meridian -->
+    <path d="M230 126 A130 130 0 0 0 230 386"/>
+    <!-- Horizontal equator -->
+    <line x1="100" y1="256" x2="360" y2="256"/>
+    <!-- Upper latitude -->
+    <path d="M118 196 A130 130 0 0 0 342 196"/>
+    <!-- Lower latitude -->
+    <path d="M118 316 A130 130 0 0 0 342 316"/>
+    <!-- Circuit branches -->
+    <line x1="360" y1="256" x2="430" y2="210"/>
+    <circle cx="460" cy="196" r="18"/>
+    <line x1="360" y1="256" x2="430" y2="256"/>
+    <circle cx="460" cy="256" r="18"/>
+    <line x1="360" y1="256" x2="430" y2="302"/>
+    <circle cx="460" cy="316" r="18"/>
+  </g>
+</svg>

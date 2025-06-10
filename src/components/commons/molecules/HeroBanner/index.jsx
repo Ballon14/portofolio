@@ -36,13 +36,13 @@ const HeroBanner = () => {
       <div className="absolute right-4 bottom-4 flex flex-col gap-4 max-md:bottom-14">
         <CardMedium
           title="About"
-          bgImg={`/images/dea-afrizal-about.png`}
+          bgImg={`/images/about.jpeg`}
           onClick={() => navigate("/about")}
         />
 
         <CardMedium
           title="Skills"
-          bgImg={`/images/dea-afrizal-skills.png`}
+          bgImg={`/images/skils.jpeg`}
           onClick={() => navigate("/skills")}
         />
       </div>

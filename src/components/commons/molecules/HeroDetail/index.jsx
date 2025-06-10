@@ -29,7 +29,7 @@ const HeroDetail = () => {
     <>
       <section className="flex max-md:flex-col-reverse">
         <div className="w-[60%] text-left text-(--text-color-black) max-xl:w-[50%] max-md:mt-8 max-md:w-full">
-          <p>Aiden R. Vale</p>
+          <p>Iqbal</p>
 
           <div className="flex gap-8 max-xl:flex-col">
             <div>
