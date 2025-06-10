@@ -1,25 +1,25 @@
 const listSocial = [
-  {
-    name: "Facebook",
-    icon: "fa-brands fa-facebook",
-    link: "https://www.facebook.com/",
-  },
-  {
-    name: "X",
-    icon: "fa-solid fa-x",
-    link: "https://x.com/",
-  },
-  {
-    name: "Instagram",
-    icon: "fa-brands fa-instagram",
-    link: "https://www.instagram.com/",
-  },
-  {
-    name: "LinkedIn",
-    icon: "fa-brands fa-linkedin",
-    link: "https://www.linkedin.com/",
-  },
-];
+    {
+        name: "GitHub",
+        icon: "fa-brands fa-github",
+        link: "https://www.github.com/Ballon14",
+    },
+    {
+        name: "X",
+        icon: "fa-solid fa-x",
+        link: "https://x.com/iqbal140605",
+    },
+    {
+        name: "Instagram",
+        icon: "fa-brands fa-instagram",
+        link: "https://www.instagram.com/ballonnnn__",
+    },
+    {
+        name: "WhatsApp",
+        icon: "fa-brands fa-whatsapp",
+        link: "https://api.whatsapp.com/send?phone=6281515630448&text=Haiii%F0%9F%A4%A9",
+    },
+]
 
 const BoxSocial = () => {
   return (

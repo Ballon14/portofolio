@@ -1,5 +1,6 @@
 import MainLayout from "../components/layouts/MainLayout";
 import AboutPage from "../pages/AboutPage";
+import ContactPage from "../pages/ContactPage";
 import HomePage from "../pages/HomePage";
 import NotFound from "../pages/NotFound";
 import ProjectPage from "../pages/ProjectsPage";
@@ -42,7 +43,7 @@ const routes = [
         key: "contact",
         name: "contact",
         path: "/contact",
-        Component: NotFound,
+        Component: ContactPage,
       },
     ],
   },
