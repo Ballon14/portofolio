@@ -27,10 +27,10 @@ const BoxSocial = () => {
       {listSocial.map((item, index) => (
         <button
           key={index}
-          className="cursor-pointer rounded-full border-2 border-(--bg-secondary-cray) px-2 py-1 hover:bg-(--bg-secondary-cray)"
+          className="cursor-pointer rounded-full border-2  border-(--bg-secondary-cray) px-2 py-1 hover:bg-(--bg-secondary-cray)"
           onClick={() => window.open(item.link, "_blank")}
         >
-          <i className={`${item.icon} text-md`}></i>
+          <i className={`${item.icon} text-md text-black`}></i>
         </button>
       ))}
     </div>

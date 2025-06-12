@@ -14,7 +14,7 @@ const ProjectPage = () => {
                 <div className="flex flex-wrap flex-row gap-5 align-center justify-center items-center">
                     <div className="w-full max-w-150 rounded-4xl px-6 py-6 mt-4 bg-gray-200 shadow-xl not-first ">
                         <div className="flex flex-col items-center justify-between">
-                            <h2 className="text-2xl font-bold underline">
+                            <h2 className="text-2xl font-semibold">
                                 Project 1
                             </h2>
                             <img
@@ -44,34 +44,68 @@ const ProjectPage = () => {
                                 obligations on time.
                             </p>
                             <div className="flex flex-wrap gap-2 mt-2 mb-2">
-                                <a
-                                    href="#"
-                                    className="text-lg bg-blue-600 px-2 py-1 text-white rounded-3xl"
-                                >
-                                    PHP Native
-                                </a>
-                                <a
-                                    href="#"
-                                    className="text-lg bg-yellow-600 px-2 py-1 text-white rounded-3xl"
-                                >
-                                    Javascript
-                                </a>
-                                <a
-                                    href="#"
-                                    className="text-lg bg-blue-600 px-2 py-1 text-white rounded-3xl"
-                                >
-                                    Tailwind CSS
-                                </a>
-                                <a
-                                    href="#"
-                                    className="text-lg bg-blue-600 px-2 py-1 text-white rounded-3xl"
-                                >
-                                    MySQL
-                                </a>
+                                <div className="flex flex-row gap-2 mt-2">
+                                    <button className="relative flex h-28 w-32 cursor-pointer flex-col items-center justify-center rounded-xl bg-(--bg-tertiary-cray) p-2 shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105">
+                                        <img
+                                            src="icons/php.png"
+                                            alt="php"
+                                            className="absolute -top-2 h-20 w-20 rounded-full object-contain shadow-2xl"
+                                        />
+                                        <p className="mt-15 text-center text-sm leading-4 font-semibold">
+                                            "PHP Native"
+                                        </p>
+
+                                        <div className="absolute -bottom-4 flex h-10 w-10 scale-75 rotate-45 items-center justify-center rounded-[20px] border bg-(--text-color-black)">
+                                            <i className="fa fa-arrow-up text-xs text-white"></i>
+                                        </div>
+                                    </button>
+                                    <button className="relative flex h-28 w-32 cursor-pointer flex-col items-center justify-center rounded-xl bg-(--bg-tertiary-cray) p-2 shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105">
+                                        <img
+                                            src="icons/js.png"
+                                            alt="php"
+                                            className="absolute -top-2 h-20 w-20 rounded-full object-contain shadow-2xl"
+                                        />
+                                        <p className="mt-15 text-center text-sm leading-4 font-semibold">
+                                            "JavaScript"
+                                        </p>
+
+                                        <div className="absolute -bottom-4 flex h-10 w-10 scale-75 rotate-45 items-center justify-center rounded-[20px] border bg-(--text-color-black)">
+                                            <i className="fa fa-arrow-up text-xs text-white"></i>
+                                        </div>
+                                    </button>
+                                    <button className="relative flex h-28 w-32 cursor-pointer flex-col items-center justify-center rounded-xl bg-(--bg-tertiary-cray) p-2 shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105">
+                                        <img
+                                            src="icons/tailwind.png"
+                                            alt="php"
+                                            className="absolute -top-2 h-20 w-20 rounded-full object-contain shadow-2xl"
+                                        />
+                                        <p className="mt-15 text-center text-sm leading-4 font-semibold">
+                                            "Tailwind CSS"
+                                        </p>
+
+                                        <div className="absolute -bottom-4 flex h-10 w-10 scale-75 rotate-45 items-center justify-center rounded-[20px] border bg-(--text-color-black)">
+                                            <i className="fa fa-arrow-up text-xs text-white"></i>
+                                        </div>
+                                    </button>
+                                    <button className="relative flex h-28 w-32 cursor-pointer flex-col items-center justify-center rounded-xl bg-(--bg-tertiary-cray) p-2 shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105">
+                                        <img
+                                            src="icons/mysql.png"
+                                            alt="php"
+                                            className="absolute -top-2 h-20 w-20 rounded-full object-contain shadow-2xl"
+                                        />
+                                        <p className="mt-15 text-center text-sm leading-4 font-semibold">
+                                            "MySQL"
+                                        </p>
+
+                                        <div className="absolute -bottom-4 flex h-10 w-10 scale-75 rotate-45 items-center justify-center rounded-[20px] border bg-(--text-color-black)">
+                                            <i className="fa fa-arrow-up text-xs text-white"></i>
+                                        </div>
+                                    </button>
+                                </div>
                             </div>
                             <a
                                 href="https://iqbaldev.site/tax"
-                                className="font-bold text-xl text-(--text-color-black) hover:text-orange-600 hover:underline"
+                                className="mt-5 font-bold text-xl text-(--text-color-black) hover:text-orange-600 hover:underline"
                             >
                                 View Project =
                                 <p className="fa fa-chevron-right rotate-x-180"></p>
@@ -80,11 +114,13 @@ const ProjectPage = () => {
                     </div>
                     <div className="w-full max-w-150 rounded-4xl px-6 py-6 mt-4 bg-gray-200 shadow-xl">
                         <div className="flex flex-col items-center justify-between">
-                            <h2 className="text-2xl font-bold">Project 1</h2>
+                            <h2 className="text-2xl font-semibold">
+                                Project 1
+                            </h2>
                             <img
                                 src="images/hero.png"
                                 alt="Jrakah Tax Images"
-                                className="w-100 rounded-2xl m-3"
+                                className="w-100 rounded-2xl m-3 cursor-pointer"
                             />
                             <a
                                 href="https://iqbaldev.site/tax"
@@ -108,34 +144,68 @@ const ProjectPage = () => {
                                 obligations on time.
                             </p>
                             <div className="flex flex-wrap gap-2 mt-2 mb-2">
-                                <a
-                                    href="#"
-                                    className="text-lg bg-blue-600 px-2 py-1 text-white rounded-3xl"
-                                >
-                                    PHP Native
-                                </a>
-                                <a
-                                    href="#"
-                                    className="text-lg bg-yellow-600 px-2 py-1 text-white rounded-3xl"
-                                >
-                                    Javascript
-                                </a>
-                                <a
-                                    href="#"
-                                    className="text-lg bg-blue-600 px-2 py-1 text-white rounded-3xl"
-                                >
-                                    Tailwind CSS
-                                </a>
-                                <a
-                                    href="#"
-                                    className="text-lg bg-blue-600 px-2 py-1 text-white rounded-3xl"
-                                >
-                                    MySQL
-                                </a>
+                                <div className="flex flex-row gap-2 mt-2">
+                                    <button className="relative flex h-28 w-32 cursor-pointer flex-col items-center justify-center rounded-xl bg-(--bg-tertiary-cray) p-2 shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105">
+                                        <img
+                                            src="icons/php.png"
+                                            alt="php"
+                                            className="absolute -top-2 h-20 w-20 rounded-full object-contain shadow-2xl"
+                                        />
+                                        <p className="mt-15 text-center text-sm leading-4 font-semibold">
+                                            "PHP Native"
+                                        </p>
+
+                                        <div className="absolute -bottom-4 flex h-10 w-10 scale-75 rotate-45 items-center justify-center rounded-[20px] border bg-(--text-color-black)">
+                                            <i className="fa fa-arrow-up text-xs text-white"></i>
+                                        </div>
+                                    </button>
+                                    <button className="relative flex h-28 w-32 cursor-pointer flex-col items-center justify-center rounded-xl bg-(--bg-tertiary-cray) p-2 shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105">
+                                        <img
+                                            src="icons/js.png"
+                                            alt="php"
+                                            className="absolute -top-2 h-20 w-20 rounded-full object-contain shadow-2xl"
+                                        />
+                                        <p className="mt-15 text-center text-sm leading-4 font-semibold">
+                                            "JavaScript"
+                                        </p>
+
+                                        <div className="absolute -bottom-4 flex h-10 w-10 scale-75 rotate-45 items-center justify-center rounded-[20px] border bg-(--text-color-black)">
+                                            <i className="fa fa-arrow-up text-xs text-white"></i>
+                                        </div>
+                                    </button>
+                                    <button className="relative flex h-28 w-32 cursor-pointer flex-col items-center justify-center rounded-xl bg-(--bg-tertiary-cray) p-2 shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105">
+                                        <img
+                                            src="icons/tailwind.png"
+                                            alt="php"
+                                            className="absolute -top-2 h-20 w-20 rounded-full object-contain shadow-2xl"
+                                        />
+                                        <p className="mt-15 text-center text-sm leading-4 font-semibold">
+                                            "Tailwind CSS"
+                                        </p>
+
+                                        <div className="absolute -bottom-4 flex h-10 w-10 scale-75 rotate-45 items-center justify-center rounded-[20px] border bg-(--text-color-black)">
+                                            <i className="fa fa-arrow-up text-xs text-white"></i>
+                                        </div>
+                                    </button>
+                                    <button className="relative flex h-28 w-32 cursor-pointer flex-col items-center justify-center rounded-xl bg-(--bg-tertiary-cray) p-2 shadow-2xl transition-transform duration-300 ease-in-out hover:scale-105">
+                                        <img
+                                            src="icons/mysql.png"
+                                            alt="php"
+                                            className="absolute -top-2 h-20 w-20 rounded-full object-contain shadow-2xl"
+                                        />
+                                        <p className="mt-15 text-center text-sm leading-4 font-semibold">
+                                            "MySQL"
+                                        </p>
+
+                                        <div className="absolute -bottom-4 flex h-10 w-10 scale-75 rotate-45 items-center justify-center rounded-[20px] border bg-(--text-color-black)">
+                                            <i className="fa fa-arrow-up text-xs text-white"></i>
+                                        </div>
+                                    </button>
+                                </div>
                             </div>
                             <a
                                 href="https://iqbaldev.site/tax"
-                                className="font-bold text-xl text-(--text-color-black) hover:text-orange-600 hover:underline"
+                                className="mt-5 font-bold text-xl text-(--text-color-black) hover:text-orange-600 hover:underline"
                             >
                                 View Project =
                                 <p className="fa fa-chevron-right rotate-x-180"></p>
