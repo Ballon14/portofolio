@@ -106,14 +106,15 @@ export const listIndustries = [
 
 export const listProjects = [
   {
-    title: "Darkblade Studio – Web Platform Development",
-    desc: "Developed a fully responsive and scalable web platform for a fantasy game studio. Implemented React.js with Tailwind CSS for rapid UI building, and integrated backend APIs for player stats, login, and live leaderboards. Optimized for performance and accessibility across all devices.",
+    title: "Jrakah Tax",
+    desc: "Jrakah Tax is a digital system designed ti streamline the monitor and recapitulation of land and bulding tax (PBB) payment in the Jrakah area. This platform allows both officials and regrading to easily acces information regrading tax amounts, payment statues (paid, process, and unpaid), and taxpayer details in a transparent and accurate manner. With its modern and responsive interface, Jrakah Tax aims to improve tax administration efficiency and transparency, making it easier for taxpayers to manage their taxes and pay taxes on time.",
     background: "/images/bg-2.webp",
     list_tech: [
+      { name: "PHP", icon: "/icons/php.png" },
       { name: "javaScript", icon: "/icons/js.png" },
-      { name: "React", icon: "/icons/react.svg" },
       { name: "Tailwind", icon: "/icons/tailwind.png" },
     ],
+    websiteUrl: "https://iqbaldev.site/tax"
   },
   {
     title: "Personal Developer Portfolio – GSAP & 3D UI",

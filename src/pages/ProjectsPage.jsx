@@ -12,9 +12,11 @@ const ProjectPage = () => {
                 </h1>
                 <p className="text-lg">Project list</p>
                 <div className="flex flex-wrap flex-row gap-5 align-center justify-center items-center">
-                    <div className="w-full max-w-150 rounded-4xl px-6 py-6 mt-4 bg-gray-200 shadow-xl">
+                    <div className="w-full max-w-150 rounded-4xl px-6 py-6 mt-4 bg-gray-200 shadow-xl not-first ">
                         <div className="flex flex-col items-center justify-between">
-                            <h2 className="text-2xl font-bold">Project 1</h2>
+                            <h2 className="text-2xl font-bold underline">
+                                Project 1
+                            </h2>
                             <img
                                 src="images/hero.png"
                                 alt="Jrakah Tax Images"
@@ -141,7 +143,6 @@ const ProjectPage = () => {
                         </div>
                     </div>
                 </div>
-
                 <BoxSocial />
             </div>
         </section>
